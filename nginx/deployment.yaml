@@ -4,7 +4,7 @@ metadata:
   name: nginx
   namespace: nginx-production  # The namespace for the single environment
 spec:
-  replicas: 1  # Set to 1 pod
+  replicas: 2  # Set to 1 pod
   selector:
     matchLabels:
       app: nginx
